@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 
 
@@ -13,7 +12,7 @@ public class CountCost {
 
     public void count() {
 
-        loadData.loadData();
+        loadData.loadHorizAndVertic();
         ArrayList<Integer> horizontalArList = loadData.loadHorizontalCutsCost();
         ArrayList<Integer> verticalArList = loadData.loadVerticalCutCost();
 

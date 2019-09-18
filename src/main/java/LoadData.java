@@ -6,7 +6,7 @@ public class LoadData {
     private int horizontal;
     private int vertical;
     private Scanner globalScanner= new Scanner(System.in);
-    public void loadData(){
+    public void loadHorizAndVertic(){
         System.out.println("enter length");
          horizontal = globalScanner.nextInt();
         System.out.println("enter width");
